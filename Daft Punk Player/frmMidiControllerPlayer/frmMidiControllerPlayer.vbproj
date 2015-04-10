@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8ED71249-7214-4B25-806F-B0393BDF9B58}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>frmMidiControllerPlayer.My.MyApplication</StartupObject>
+    <RootNamespace>frmMidiControllerPlayer</RootNamespace>
+    <AssemblyName>frmMidiControllerPlayer</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\student\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>frmMidiControllerPlayer.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>frmMidiControllerPlayer.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>51B00EF80034D4EC1EB952E0595ACA596C97EF1C</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>frmMidiControllerPlayer_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmMidiController.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMidiController.Designer.vb">
+      <DependentUpon>frmMidiController.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmMidiController.resx">
+      <DependentUpon>frmMidiController.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>PublicVbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="frmMidiControllerPlayer_TemporaryKey.pfx" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\speaker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Low Seiko SQ50.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\High Seiko SQ50.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Harder, Better, Faster, Stronger %28Instrumental%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HarderLow.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HarderMid.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HourLow.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HourMid.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MakeItLow.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MakeItMid.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MakesUsLow.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MakesUsMid.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MoreThanLow.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MoreThanMid.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NeverLow.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NeverMid.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OurLow.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OurMid.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OverLow.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OverMid.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StrongerLow.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StrongerMid.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WorkIsLow.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WorkIsMid.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WorkItLow.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WorkItMid.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AfterLow.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AfterMid.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BetterLow.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BetterMid.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoItLow.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoItMid.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EverLow.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EverMid.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FasterLow.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FasterMid.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Faster.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FasterToggle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Harder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HarderToggle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hour.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HourToggle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MakeIt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MakeItToggle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MakesUs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MakesUsToggle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MoreThan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MoreThanToggle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Never.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NeverToggle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Our.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OurToggle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Over.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OverToggle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stronger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StrongerToggle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WorkIs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WorkIsToggle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WorkIt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WorkItToggle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\After.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AfterToggle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Better.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BetterToggle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoIt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoItToggle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ever.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EverToggle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DLabel.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dlabel0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picBeat3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picBeat4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picBeat1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picBeat2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

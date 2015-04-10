@@ -1,0 +1,308 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+frmMidiControllerPlayer
+</name>
+</assembly>
+<members>
+<member name="P:frmMidiControllerPlayer.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.After">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.AfterLow">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.AfterMid">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.AfterToggle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.Better">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.BetterLow">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.BetterMid">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.BetterToggle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.DLabel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.Dlabel0">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.DoIt">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.DoItLow">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.DoItMid">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.DoItToggle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.Ever">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.EverLow">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.EverMid">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.EverToggle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.Faster">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.FasterLow">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.FasterMid">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.FasterToggle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.Harder">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.Harder__Better__Faster__Stronger__Instrumental_">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.HarderLow">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.HarderMid">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.HarderToggle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.Hour">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.HourLow">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.HourMid">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.HourToggle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.MakeIt">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.MakeItLow">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.MakeItMid">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.MakeItToggle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.MakesUs">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.MakesUsLow">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.MakesUsMid">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.MakesUsToggle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.MoreThan">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.MoreThanLow">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.MoreThanMid">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.MoreThanToggle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.Never">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.NeverLow">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.NeverMid">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.NeverToggle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.Our">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.OurLow">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.OurMid">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.OurToggle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.Over">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.OverLow">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.OverMid">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.OverToggle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.picBeat1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.picBeat2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.picBeat3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.picBeat4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.Stronger">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.StrongerLow">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.StrongerMid">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.StrongerToggle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.WorkIs">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.WorkIsLow">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.WorkIsMid">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.WorkIsToggle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.WorkIt">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.WorkItLow">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.WorkItMid">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:frmMidiControllerPlayer.My.Resources.Resources.WorkItToggle">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:frmMidiControllerPlayer.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
